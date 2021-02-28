@@ -34,5 +34,5 @@ def predict_label(image_name):
   labels = [index2label[label.item()] for label in output]
   return labels
 
-image_name = "./sample1.jpg"
+image_name = "./sample2.jpg"
 print(predict_label(image_name))
